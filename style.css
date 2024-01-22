@@ -1,0 +1,57 @@
+.calc {
+  background-color: black;
+  border-radius: 10px;
+  width: fit-content;
+  margin: 5px;
+  padding: 5px;
+}
+
+button {
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+  margin: 3px;
+  font-weight: bold;
+  font-size: larger;
+  text-align: center;
+  border: none;
+}
+button:hover {
+  transition: 0.5s;
+  background-color: #dbc3a7;
+}
+button:focus {
+  transition: 0.2s;
+  background-color: white;
+  color: black;
+  border: solid;
+  border-color: #94908b;
+}
+input {
+  width: 165px;
+  height: 30px;
+  border-radius: 5px;
+  background-color: #94908b;
+  color: black;
+  font-weight: bold;
+  font-size: larger;
+}
+.reset {
+  background-color: #b5b3b1;
+}
+
+.num {
+  background-color: #404040;
+  color: white;
+}
+.operation {
+  background-color: #f09022;
+  color: white;
+}
+.result {
+  background-color: black;
+  border: none;
+  font-size: x-large;
+  color: white;
+  text-align: right;
+}
