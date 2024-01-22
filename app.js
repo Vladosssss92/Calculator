@@ -1,4 +1,4 @@
-let firstNum = "";
+let firstNum = ""; // первая переменная
 let secondNum = "";
 let operator = "";
 let resultBtn = "";
